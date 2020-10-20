@@ -6,7 +6,6 @@ import { Link } from "gatsby"
 
 export default class NavBar extends React.Component {
   render(){
-
     const brandLinkStyle = {
       color: 'white',
       display: 'inline-block',
@@ -25,7 +24,6 @@ export default class NavBar extends React.Component {
       padding: '0.25rem',
       textDecoration: 'none',
       fontFamily: 'Poppins',
-      fontWeight: 'bold'
     };
 
     const activeLinkStyle = {
@@ -35,7 +33,6 @@ export default class NavBar extends React.Component {
       padding: '0.25rem',
       textDecoration: 'none',
       fontFamily: 'Poppins',
-      fontWeight: 'bold'
     }
 
     return (
