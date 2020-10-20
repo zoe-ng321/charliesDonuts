@@ -1,0 +1,35 @@
+.footer {
+	display: flex;
+	align-items: center;
+  background: slategray;
+	text-align: left;
+	font-size: 14px;
+  color: white;
+  font-family: 'Poppins';
+  display: 'inline-block';
+	p {
+		margin: 0;
+		color: #000
+	}
+	a {
+		font-weight: normal;
+	}
+}
+
+.footerRow{
+  margin-left: 8rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 8rem;
+  width: 100%;
+}
+
+.navbar{
+  display: flex;
+  background-color:crimson;
+}
+
+.container{
+  min-height: 85vh;
+  font-family: 'Poppins';
+}
