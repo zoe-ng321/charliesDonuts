@@ -38,11 +38,11 @@ export default class NavBar extends React.Component {
     return (
       <div>
         <Navbar collapseOnSelect expand="lg" className="navbar">
-          <Navbar.Brand><Link style={brandLinkStyle} to="/home"><strong>Charlie's Donuts</strong></Link></Navbar.Brand>
+          <Navbar.Brand><Link style={brandLinkStyle} to="/"><strong>Charlie's Donuts</strong></Link></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto" style={{marginTop: '5px'}}>
-              <Link  to="/home" style={linkStyles} activeStyle={activeLinkStyle}>Home</Link>
+              <Link to="/" style={linkStyles} activeStyle={activeLinkStyle}>Home</Link>
               <Link to="/about" style={linkStyles} activeStyle={activeLinkStyle}>About</Link>
               <Link to="/menu" style={linkStyles} activeStyle={activeLinkStyle}>Menu</Link>
               <Link to="/gallery" style={linkStyles} activeStyle={activeLinkStyle}>Gallery</Link>

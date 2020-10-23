@@ -7,6 +7,8 @@
 module.exports = {
   /* Your site config here */
   plugins: [
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
@@ -16,6 +18,13 @@ module.exports = {
             variants: [`400`, `700`]
           }
         ],
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/assets/`,
+        name: `assets`
       },
     }
   ],

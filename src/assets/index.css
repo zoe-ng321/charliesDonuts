@@ -32,4 +32,54 @@
 .container{
   min-height: 85vh;
   font-family: 'Poppins';
+  margin-top: 2rem;
+}
+
+.hero{
+  width: 100%;
+  padding: 7rem;
+  color: black;
+  font-family: 'Poppins';
+  text-align: center;
+  align-items: center;
+}
+
+.hero2{
+  color: black;
+  padding: 7rem;
+  padding-top: 15rem;
+  min-height: 92vh;
+  font-family: 'Poppins';
+  text-align: left;
+  align-items: center;
+}
+
+.herotext{
+  display:inline;
+  white-space:pre-wrap;
+  font-size: 24px;
+  background-color:white;
+  padding: 5px;
+  padding-left:0px;
+  box-shadow: -8px 0 0 #fff;
+}
+
+.herotitle{
+  font-size: 48px;
+  font-weight: bold;
+  display:inline;
+  white-space:pre-wrap;
+  background-color:white;
+  padding: 5px;
+  padding-left:0px;
+  box-shadow: -8px 0 0 #fff;
+}
+
+.image{
+  border-radius: 12px;
+}
+
+.galleryCol{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }

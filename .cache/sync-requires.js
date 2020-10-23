@@ -9,7 +9,6 @@ exports.components = {
   "component---src-pages-about-js": hot(preferDefault(require("/Users/zoeng/git/charliesDonuts/src/pages/about.js"))),
   "component---src-pages-contact-js": hot(preferDefault(require("/Users/zoeng/git/charliesDonuts/src/pages/contact.js"))),
   "component---src-pages-gallery-js": hot(preferDefault(require("/Users/zoeng/git/charliesDonuts/src/pages/gallery.js"))),
-  "component---src-pages-home-js": hot(preferDefault(require("/Users/zoeng/git/charliesDonuts/src/pages/home.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/Users/zoeng/git/charliesDonuts/src/pages/index.js"))),
   "component---src-pages-menu-js": hot(preferDefault(require("/Users/zoeng/git/charliesDonuts/src/pages/menu.js")))
 }
