@@ -61,7 +61,7 @@ export default function Home({ data }) {
             />
           </Col>
           <Col lg={6} style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '10px'}}>
-            <Button style={{backgroundColor:'LIGHTSTEELBLUE', borderColor:'LIGHTSTEELBLUE', }}><Link  to="/menu" style={linkStyles}>{json.content[2].item}<BsChevronRight/></Link></Button>
+            <Link  to="/menu" style={linkStyles}><Button style={{backgroundColor:'LIGHTSTEELBLUE', borderColor:'LIGHTSTEELBLUE', }}>{json.content[2].item}<BsChevronRight/></Button></Link>
           </Col>
         </Row>
       </div>
