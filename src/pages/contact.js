@@ -22,7 +22,7 @@ export default function Contact({data}) {
   };
   var map=(
     <LoadScript
-        googleMapsApiKey="AIzaSyChIwMVEpRXX2LVAJZREfRzPue8HJVFouI"
+        googleMapsApiKey={process.env.GATSBY_GOOGLE_MAPS_API_KEY}
       >
         <GoogleMap
           mapContainerStyle={containerStyle}
@@ -59,15 +59,3 @@ export default function Contact({data}) {
     </div>
   );
 }
-
-export const query = graphql`
-  query MyQueryContact {
-    map:file(relativePath: { eq: "IMG_8728copy.jpg" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-  }
-`
