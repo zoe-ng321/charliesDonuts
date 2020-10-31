@@ -89,3 +89,24 @@
 .menusubsection{
   margin-bottom: 1rem;
 }
+
+.buttonStyle{
+  background-color: LIGHTSTEELBLUE;
+  border-color: LIGHTSTEELBLUE;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.buttonStyle:hover{
+  background-color: LIGHTSTEELBLUE;
+  border-color: LIGHTSTEELBLUE;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.buttonStyle:target{
+  background-color: LIGHTSTEELBLUE;
+  border-color: LIGHTSTEELBLUE;
+  color: black;
+  margin-bottom: 1rem;
+}
