@@ -1,4 +1,5 @@
 import React, {useState} from "react"
+import Helmet from "react-helmet"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../assets/index.css';
 import NavBar from '../components/navbar.js'
@@ -104,7 +105,10 @@ export default function Home({ data }) {
   );
   return (
     <div>
-    {v2}
+      <Helmet>
+        <title>Charlie's Donuts</title>
+      </Helmet>
+      {v2}
     </div>
   );
 }
