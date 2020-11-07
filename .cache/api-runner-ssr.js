@@ -1,4 +1,7 @@
 var plugins = [{
+      plugin: require('/Users/zoeng/git/charliesDonuts/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
       plugin: require('/Users/zoeng/git/charliesDonuts/node_modules/gatsby-plugin-prefetch-google-fonts/gatsby-ssr'),
       options: {"plugins":[],"fonts":[{"family":"Poppins","variants":["400","700"]}]},
     },{
