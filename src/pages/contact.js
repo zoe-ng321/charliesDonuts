@@ -10,34 +10,41 @@ import { GoogleMap, LoadScript, Marker, InfoBox } from '@react-google-maps/api';
 export default function Contact({data}) {
 
   const containerStyle = {
-    width: '1000px',
-    height: '300px'
+    width: '100%'
   };
 
   const center = {
     lat: 28.8068871,
     lng: -96.9891038
   };
+
   var map=(
-    <LoadScript
-        googleMapsApiKey={process.env.GATSBY_GOOGLE_MAPS_API_KEY}
-      >
-        <GoogleMap
-          mapContainerStyle={containerStyle}
-          center={center}
-          zoom={17}
-        >
-          <InfoBox position={center}>
-            <div style={{ backgroundColor: 'lightgrey', padding: 10 }}>
-              <div style={{ fontSize: 14, color: 'black' }}>
-                Charlie's Donuts
+    <div
+      style={{ height: 350,
+      width: '100%',
+      display: 'flex',
+      flexFlow: 'row nowrap',
+      justifyContent: 'center',
+      padding: 0 }}>
+      <LoadScript
+          googleMapsApiKey={process.env.GATSBY_GOOGLE_MAPS_API_KEY}>
+          <GoogleMap
+            mapContainerStyle={containerStyle}
+            center={center}
+            zoom={17}>
+            <InfoBox position={center}>
+              <div style={{ backgroundColor: 'lightgrey', padding: 10 }}>
+                <div style={{ fontSize: 14, color: 'black' }}>
+                  Charlie's Donuts
+                </div>
               </div>
-            </div>
-          </InfoBox>
-          <Marker position={center}/>
-          </GoogleMap>
-      </LoadScript>
+            </InfoBox>
+            <Marker position={center}/>
+            </GoogleMap>
+        </LoadScript>
+      </div>
   );
+  
   return (
     <div>
       <NavBar/>
