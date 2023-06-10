@@ -15,7 +15,7 @@ import json from '../content/home.json'
 import {BsChevronRight} from 'react-icons/bs'
 
 export default function Home({ data }) {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
   const linkStyles = {
     color: 'black',
     display: 'inline-block',
